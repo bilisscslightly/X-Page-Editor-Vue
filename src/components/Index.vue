@@ -55,9 +55,9 @@
 <script>
 import '@/global/icon/iconfont.css'
 
-import XPEHeader from './Header'
+import XPEHeader from './Header/Index.vue'
 import XPEList from './List.vue'
-import XPEBoard from './Board'
+import XPEBoard from './Board/Index.vue'
 import XPEOptions from './Options.vue'
 import XPEFooter from './Footer.vue'
 import XPEContextMenu from '@/global/components/ContextMenu/Index.vue'
@@ -66,7 +66,8 @@ import defConfig from '@/config'
 import utils from '@/global/utils'
 
 export default {
-  name: 'XPE',
+  // name: 'XPE',
+  name: 'XPageEditor',
   components: {
     XPEHeader,
     XPEList,
